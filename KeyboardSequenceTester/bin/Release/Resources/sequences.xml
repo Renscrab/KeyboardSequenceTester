@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<sequences>
+	  <sequence name="MCH - 2A - 1GR" timer="20" icon="machinist_icon_4.png">
+	    <key skill="quelling_strikes" />
+	    <key skill="hypercharge" />
+	    <key skill="blood_for_blood" />
+	    <key skill="hawks_eye" />
+	    
+	    <key skill="hot_shot_gb_on" />
+	    	    <key skill="raging_strikes" />
+	    		<key skill="dext_potion" />
+
+	    <key skill="lead_shot_gb_on" />
+	    	<key skill="reload" />
+	    
+	    <key skill="split_shot_gb_on" />
+	    	<key skill="wildfire" />
+	    
+	    <key skill="slug_shot_proc" />
+	    	<key skill="gauss_round" />
+	    	<key skill="reassemble" />	    
+	    
+	    <key skill="clean_shot_proc" />
+	    	<key skill="ricochet" />
+	    	<key skill="rapid_fire" />	    
+	    
+	    <key skill="split_shot_rapid_fire" />
+	    	<key skill="blank" />
+	    
+	    <key skill="slug_shot_rapid_fire" />
+			<key skill="quick_reload" />
+		
+		<key skill="split_shot_rapid_fire" />
+			<key skill="head_graze" />
+
+		<key skill="clean_shot_proc" />
+		
+		<key skill="slug_shot_proc" />
+		
+		<key skill="clean_shot_proc" />
+	  </sequence>
+
+	   <sequence name="MCH - 5A - 1GR" timer="20" icon="machinist_icon_4.png">
+		<key skill="quelling_strikes" />
+	    <key skill="hypercharge" />
+	    <key skill="blood_for_blood" />
+	    <key skill="hawks_eye" />
+
+	    <key skill="hot_shot_gb_on" />
+	    	<key skill="raging_strikes" />
+			<key skill="dext_potion" />
+
+	    <key skill="lead_shot_gb_on" />
+	    	<key skill="quick_reload" />
+
+	    <key skill="split_shot_gb_on" />
+	    	<key skill="wildfire" />
+
+	    <key skill="slug_shot_proc" />
+	    	<key skill="gauss_round" />
+	    	<key skill="reassemble" />	    
+
+	    <key skill="clean_shot_proc" />
+	    	<key skill="reload" /> 
+	    	<key skill="rapid_fire" />	    
+	    
+	    <key skill="split_shot_rapid_fire" /> 
+	    	<key skill="ricochet" />
+	    
+	    <key skill="slug_shot_rapid_fire" /> 
+			<key skill="blank" />
+
+		<key skill="split_shot_rapid_fire" /> 
+			<key skill="head_graze" />
+
+		<key skill="clean_shot_proc" /> 
+
+		<key skill="slug_shot_proc" /> 
+
+		<key skill="clean_shot_proc" />
+
+	  </sequence>
+
+	   <sequence name="MCH - 5A - 2GR" timer="25" icon="machinist_icon_4.png">
+	   	
+	   	<key skill="hypercharge" />
+	   	<key skill="gauss_round" />
+	   	<key skill="gauss_barrel" />
+	   	
+	   	<key skill="hot_shot_gb_off" />
+	   		<key skill="blood_for_blood" />
+	   		<key skill="raging_strikes" />
+	   	
+	   	<key skill="slug_shot_gb_off" />
+	   		<key skill="hawks_eye" />
+	   		<key skill="dex_potion" />
+
+	   	<key skill="gauss_barrel" />
+	   	
+	   	<key skill="lead_shot_gb_on" />
+	   		<key skill="wildfire" />
+
+	   	<key skill="clean_shot_proc" />
+	   		<key skill="rapid_fire" />
+		   	<key skill="quick_reload" />
+
+	   	<key skill="split_shot_rapid_fire" />
+	   		<key skill="ricochet" />
+	   	
+	   	<key skill="slug_shot_proc" />
+	   		<key skill="reload" />
+	   	
+	   	<key skill="split_shot_gb_on" />
+	   		<key skill="head_graze" />
+	   		<key skill="reassemble" />
+	   	
+	   	<key skill="clean_shot_proc" />
+	   		<key skill="blank" />
+	   	
+	   	<key skill="slug_shot_proc" />
+	   		<key skill="gauss_round" />
+
+	   	<key skill="clean_shot_proc" />
+	  </sequence>
+
+	</sequences>
+
+	<skills>
+		
+		<!-- POTS -->
+			<skill name="dex_potion" icon="dex_potion.png" shortcut="F5" castingtime="0.0" />
+
+		<!-- CROSSSKILLS -->
+			<skill name="quelling_strikes" icon="quelling_strikes.png" shortcut="Ctrl+D1" castingtime="0.0" />
+			<skill name="blood_for_blood" icon="blood_for_blood.png" shortcut="Ctrl+D3" castingtime="0.0" />
+			<skill name="hawks_eye" icon="hawks_eye.png" shortcut="Ctrl+D4" castingtime="0.0" />
+			<skill name="raging_strikes" icon="raging_strikes.png" shortcut="Ctrl+D5" castingtime="0.0" />
+		
+		<!-- MCH SKILLS -->
+			<!-- WEAPON SKILLS -->
+				<skill name="hot_shot_gb_on" icon="hot_shot.png" shortcut="Shift+D4" castingtime="2.5" />
+				<skill name="lead_shot_gb_on" icon="lead_shot.png" shortcut="Shift+D5" castingtime="2.5" />
+				<skill name="split_shot_gb_on" icon="split_shot.png" shortcut="D1" castingtime="2.5" />
+				<skill name="slug_shot_gb_on" icon="slug_shot.png" shortcut="D2" castingtime="2.5" />
+				<skill name="clean_shot_gb_on" icon="clean_shot.png" shortcut="D3" castingtime="2.5" />
+				<skill name="spread_shot_gb_on" icon="spread_shot.png" shortcut="Ctrl+E" castingtime="2.5" />
+				<skill name="grenado_shot_gb_on" icon="grenado_shot.png" shortcut="Ctrl+R" castingtime="2.5" />
+
+				<skill name="hot_shot_gb_off" icon="hot_shot.png" shortcut="Shift+D4" castingtime="0.0" />
+				<skill name="lead_shot_gb_off" icon="lead_shot.png" shortcut="Shift+D5" castingtime="0.0" />
+				<skill name="split_shot_gb_off" icon="split_shot.png" shortcut="D1" castingtime="0.0" />
+				<skill name="slug_shot_gb_off" icon="slug_shot.png" shortcut="D2" castingtime="0.0" />
+				<skill name="clean_shot_gb_off" icon="clean_shot.png" shortcut="D3" castingtime="0.0" />
+				<skill name="spread_shot_gb_off" icon="spread_shot.png" shortcut="Ctrl+E" castingtime="0.0" />
+				<skill name="grenado_shot_gb_off" icon="grenado_shot.png" shortcut="Ctrl+R" castingtime="0.0" />
+
+				<skill name="slug_shot_proc" icon="slug_shot_proc.png" shortcut="D2" castingtime="0.0" />
+				<skill name="clean_shot_proc" icon="clean_shot_proc.png" shortcut="D3" castingtime="0.0" />
+
+				<skill name="hot_shot_rapid_fire" icon="hot_shot.png" shortcut="Shift+D4" castingtime="0.0" />
+				<skill name="lead_shot_rapid_fire" icon="lead_shot.png" shortcut="Shift+D5" castingtime="0.0" />
+				<skill name="split_shot_rapid_fire" icon="split_shot.png" shortcut="D1" castingtime="0.0" />
+				<skill name="slug_shot_rapid_fire" icon="slug_shot.png" shortcut="D2" castingtime="0.0" />
+				<skill name="clean_shot_rapid_fire" icon="clean_shot.png" shortcut="D3" castingtime="0.0" />
+				<skill name="spread_shot_rapid_fire" icon="spread_shot.png" shortcut="Ctrl+E" castingtime="0.0" />
+				<skill name="grenado_shot_rapid_fire" icon="grenado_shot.png" shortcut="Ctrl+R" castingtime="0.0" />
+
+			<!-- ABILITIES -->
+				<skill name="hypercharge" icon="hypercharge.png" shortcut="Ctrl+D2" castingtime="0.0" />
+				<skill name="reload" icon="reload.png" shortcut="Shift+D1" castingtime="0.0" />
+				<skill name="quick_reload" icon="reload.png" shortcut="A" castingtime="0.0" />				
+				<skill name="gauss_barrel" icon="gauss_barrel.png" shortcut="OemQuotes" castingtime="0.0" />
+				<skill name="gauss_round" icon="gauss_round.png" shortcut="E" castingtime="0.0" />
+				<skill name="ricochet" icon="ricochet.png" shortcut="R" castingtime="0.0" />
+				<skill name="wildfire" icon="wildfire.png" shortcut="D4" castingtime="0.0" />
+				<skill name="reassemble" icon="reassemble.png" shortcut="Shift+E" castingtime="0.0" />
+				<skill name="rapid_fire" icon="rapid_fire.png" shortcut="Shift+A" castingtime="0.0" />				
+				<skill name="blank" icon="blank.png" shortcut="Shift+E" castingtime="0.0" />
+				<skill name="head_graze" icon="head_graze.png" shortcut="Shift+R" castingtime="0.0" />		
+	</skills>
+</root>

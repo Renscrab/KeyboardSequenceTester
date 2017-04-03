@@ -1,0 +1,58 @@
+Hi, 
+
+note : English is not my first language, so this text may contains lot of errors and weird sentences.
+
+So, the context : I was looking for a tool to help me train and memorize my opener, so i created a simple one.
+
+Done it with C# WPF, i'm still learning C# and Visual Studio Environment, so don't expect a "triple A" application, it may contains some bugs.
+
+Here is the link, c# src (VS2013 free edition) & exe :
+
+https://ufile.io/5a751
+
+How to :
+
+- Just unzip where you want and launch KeyboardSequenceTester.exe in \bin\Release\
+
+The combobox shows all sequences you'll define in the sequences.xml file, in "Resources" folder.
+
+Click Start (or press space) to start the sequence, a timer will start, you need to follow and complete your keyboard sequence before the timer reach the "timer" attribute value, in the associated sequence xml node.
+
+Once you pressed all the shortcuts, the timer will stop and you'll see how much seconds it tokes to you. 
+
+The green bar turns red : 
+
+- when you take too much time to complete the sequence.
+
+- if "Exact" is checked and you press incorrect shortcut
+
+"Exact" option : you need to strictly follow the sequence, any wrong shortcut = fail.
+
+"OnKeyDown" option : if checked, keyboard events are captured on KeyDown, else on KeyUp.
+
+
+Now, all you have to do is change the sequences.xml file to create your own sequences.
+
+I guess the original xml is enough to see how it works, but let's explain a bit, if needed :
+
+Each sequences needs a list of <skill>, and each <skill> needs to be declared in the <skills> node.
+<skill> need these attributes :
+- "name" : it's the name used for the reference in <sequence><key skill="skill_name" />..., be sure to not create double, names are ID, multiple skills with the same name may generate weird behavior.
+- "icon" : name of icon for the skill, in icons folder
+- "shortcut" : the keyboard shortcut you use for this skill.
+To know how to translate a specific shortcut into the good string, just start a sequence, press your shortcut, and see how it's written into the big text area.
+- "castingtime" : not used yet, but later i'm planning to handle pseudo casting time with ogcd and gcd behavior
+
+
+In icons folder there's not all the game skills icons, there's only jobs + mch's skills, feel free to add the one you want but try to the same format (replacing space by "_", no special characters).
+
+Enjoy,
+
+If any suggestion or question, feel free to ask.
+
+ps : i'm doing this on my free time, so please be patient and not too much demanding for features :)
+
+
+
+link v0.2:
+https://ufile.io/b8dc9
